@@ -48,7 +48,7 @@ class ArtWork extends StatelessWidget {
                       color: Colors.black54,
                       borderRadius: BorderRadius.circular(5.0),
                     ),
-                    child: Icon(
+                    child: const Icon(
                       Icons.close,
                       size: 28,
                       color: Colors.white,
@@ -99,7 +99,7 @@ class ArtWork extends StatelessWidget {
                               size: 20,
                             ),
                             Padding(
-                              padding: const EdgeInsets.all(8.0),
+                              padding:  EdgeInsets.all(8.0),
                               child: Text(
                                 "Weekly Package",
                                 style: TextStyle(
@@ -123,6 +123,7 @@ class ArtWork extends StatelessWidget {
                         ),
                       ),
                     ),
+                
                   ],
                 ),
               ),
