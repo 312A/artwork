@@ -8,8 +8,9 @@ class ArtWork extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SingleChildScrollView(
-            child: Stack(
+          ListView(
+            children:[
+               Stack(
               children: [
                 Column(
                   children: [
@@ -298,6 +299,7 @@ class ArtWork extends StatelessWidget {
                 )
               ],
             ),
+            ]
           ),
         ],
       ),
